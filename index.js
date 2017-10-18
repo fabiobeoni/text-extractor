@@ -26,7 +26,7 @@ function makeRequest(url,skipTextDuplicates){
                     //add new unique entries, and prints them
                     if(textCache.indexOf(indexKey)==-1){
                         textCache.push(indexKey);
-                        console.log(url + ';'+ text.trim());
+                        console.log(url + '|#|'+ text.trim());
                     }
                 }
                 else
